@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.github.warren_bank.ptt_bluetooth_speaker.receiver">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:label="@string/app_name"
+        android:icon="@drawable/phone_bluetooth_speaker"
+        android:largeHeap="false"
+        android:allowBackup="false"
+        android:supportsRtl="false">
+
+        <service
+            android:name=".service.NetworkingService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".ui.StartNetworkingServiceActivity"
+            android:theme="@android:style/Theme.NoDisplay"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
