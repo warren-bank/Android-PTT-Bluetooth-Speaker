@@ -50,7 +50,7 @@ public class MainActivity extends Activity {
   private AudioRecord           microphoneRecorder;
   private Thread                thread;
   private boolean               isRecording;
-  private float                 volumeGain;  // range: 0.0 to 1.0
+  private float                 volumeGain;  // range: 0.0 to 2.0
 
   private BroadcastReceiver     btAdapterStateChangeReceiver;
   private boolean               didChangeBtAdapterState;
@@ -275,7 +275,7 @@ public class MainActivity extends Activity {
   }
 
   private float getVolumeGain(int progress) {
-    // progress is an integer in the range: 0 to 1000
+    // progress is an integer in the range: 0 to 2000
     return (float) progress / 1000;
   }
 
@@ -487,7 +487,10 @@ public class MainActivity extends Activity {
   }
 
   /**
-   * Scale the amplitude of 16-bit audio samples by a gain factor between 0 and 1
+   * Scale the amplitude of 16-bit audio samples by a gain factor between 0 and 2
+   *
+   * `volumeGain` is the value of `microphoneVolume` SeekBar,
+   * converted to a float within the range: 0.0 to 2.0
    *
    * Based on the answer:
    *   https://stackoverflow.com/a/26037576
@@ -506,7 +509,7 @@ public class MainActivity extends Activity {
       buf2 = (short) (buf2 & 0xff);
 
       res = (short) (buf1 | buf2);
-      res = (short) (res * volumeGain); //`volumeGain` is the value of `microphoneVolume` SeekBar, converted to a float within the range: 0.0 to 1.0
+      res = (short) Math.min((int)(res * volumeGain), (int)Short.MAX_VALUE);
 
       // convert back
       buffer[i]   = (byte) res;

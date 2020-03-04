@@ -29,7 +29,7 @@ Client and receiver pair of Android apps. Client sends audio from microphone. Re
       - the receiver plays the audio stream at its maximum volume
       - the client can apply a gain factor to change the loudness of the microphone's normal volume before it is sent through the socket
         * the default gain is 25%
-        * the maximum gain is 100%
+        * the maximum gain is 200%
 
 #### Notes:
 
