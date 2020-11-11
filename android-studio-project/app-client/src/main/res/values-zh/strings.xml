@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth 扬声器</string>
+  <string name="heading_paired_devices">成对设备的列表.\n单击接收器以连接.</string>
+  <string name="heading_connected_receiver">连接到接收器.\n触摸麦克风按键传输.\n使用滑块来调整卷.</string>
+  <string name="listview_no_devices">找不到任何设备</string>
+  <string name="toast_permissions_required">关闭:\n需要使用麦克风的许可权</string>
+  <string name="toast_connection_failed">Bluetooth 连接失败</string>
+  <string name="toast_microphone_failed">无法从麦克风获取音频</string>
+</resources>

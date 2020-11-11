@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth अध्यक्ष</string>
+  <string name="heading_paired_devices">जोडा यन्त्रहरूको सूची.\nजडान गर्न रिसिभर क्लिक गर्नुहोस्.</string>
+  <string name="heading_connected_receiver">प्राप्तासँग जडान गरियो.\nट्रान्समिट गर्न टच माइक्रोफोन बटन.\nभोल्युम समायोजन गर्न स्लाइडर प्रयोग गर्नुहोस्.</string>
+  <string name="listview_no_devices">यन्त्र फेला परेन</string>
+  <string name="toast_permissions_required">बन्द गर्नुहोस्:\nमाइक्रोफोन प्रयोग गर्न अनुमति आवश्यक छ</string>
+  <string name="toast_connection_failed">Bluetooth जडान असफल भयो</string>
+  <string name="toast_microphone_failed">माइक्रोफोनबाट अडियो प्राप्त गर्न असमर्थ</string>
+</resources>

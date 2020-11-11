@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Zvučnik</string>
+  <string name="heading_paired_devices">Jedna lista uparenih uređaja..\nKlikni na prijemnik za povezivanje.</string>
+  <string name="heading_connected_receiver">Povezan sa prijemnikom..\nJedan dodir sa mikrofonom za prijenos..\nKoristite klizač za podešavanje glasnoće..</string>
+  <string name="listview_no_devices">Nijedan uređaj nije pronađen.</string>
+  <string name="toast_permissions_required">Zatvaranje.:\nDozvola za korištenje mikrofona je potrebna.</string>
+  <string name="toast_connection_failed">Bluetooth Nije uspjelo.</string>
+  <string name="toast_microphone_failed">Ne mogu da dobijem zvuk iz mikrofona.</string>
+</resources>

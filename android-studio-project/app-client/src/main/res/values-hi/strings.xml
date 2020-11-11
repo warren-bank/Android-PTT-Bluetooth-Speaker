@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth स्पीकर</string>
+  <string name="heading_paired_devices">युग्मित उपकरणों की सूची.\nकनेक्ट करने के लिए रिसीवर क्लिक.</string>
+  <string name="heading_connected_receiver">रिसीवर से जुड़ा हुआ.\nसंचारित माइक्रोफोन बटन संचरित करने के लिए.\nआयतन समायोजित करने के लिए स्लाइडर का उपयोग.</string>
+  <string name="listview_no_devices">कोई युक्ति नहीं मिला</string>
+  <string name="toast_permissions_required">समापन:\nमाइक्रोफ़ोन का उपयोग करने की अनुमति आवश्यक है</string>
+  <string name="toast_connection_failed">Bluetooth कनेक्शन असफल</string>
+  <string name="toast_microphone_failed">माइक्रोफोन से ऑडियो प्राप्त करने में असमर्थ</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Sprecher</string>
+  <string name="heading_paired_devices">Liste der gepaarten Einheiten.\nKlicken Sie auf den Empfänger,.</string>
+  <string name="heading_connected_receiver">Verbunden mit Empfänger.\nBerührungsempfindliche Mikrofontaste.\nSchieberegler zum Anpassen des Datenträgers verwenden.</string>
+  <string name="listview_no_devices">Keine Einheiten gefunden</string>
+  <string name="toast_permissions_required">Schließen:\nDie Berechtigung zur Verwendung des Mikrofons ist erforderlich</string>
+  <string name="toast_connection_failed">Bluetooth Verbindung fehlgeschlagen</string>
+  <string name="toast_microphone_failed">Audio vom Mikrofon kann nicht abgerufen werden</string>
+</resources>

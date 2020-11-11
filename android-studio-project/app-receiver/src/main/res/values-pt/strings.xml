@@ -1,0 +1,6 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Speaker</string>
+  <string name="notification_service_ticker">PTT Bluetooth Speaker: serviço em execução</string>
+  <string name="notification_service_content_line1">PTT Bluetooth Speaker em execução</string>
+  <string name="notification_service_content_line2">Clique para parar o serviço.</string>
+</resources>

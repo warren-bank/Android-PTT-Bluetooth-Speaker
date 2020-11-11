@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Conférencier</string>
+  <string name="heading_paired_devices">Liste des unités appariées.\nCliquez sur récepteur pour vous connecter.</string>
+  <string name="heading_connected_receiver">Connecté au récepteur.\nTouche de microphone à transmettre.\nUtiliser le curseur pour ajuster le volume.</string>
+  <string name="listview_no_devices">Aucun périphérique trouvé</string>
+  <string name="toast_permissions_required">Fermeture:\nL\'autorisation d\'utiliser le microphone est requise</string>
+  <string name="toast_connection_failed">Bluetooth échec de connexion</string>
+  <string name="toast_microphone_failed">Impossible d\'obtenir l\'audio du microphone</string>
+</resources>

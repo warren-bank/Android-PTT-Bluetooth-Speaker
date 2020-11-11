@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Haut-parleur</string>
+  <string name="heading_paired_devices">Liste des appareils appariés.\nCliquez sur récepteur pour vous connecter.</string>
+  <string name="heading_connected_receiver">Connecté au récepteur.\nBouton de microphone tactile à transmettre.\nUtiliser le curseur pour ajuster le volume.</string>
+  <string name="listview_no_devices">Aucun périphérique n\'a été trouvé</string>
+  <string name="toast_permissions_required">Clôture:\nL\'autorisation d\'utiliser le microphone est requise</string>
+  <string name="toast_connection_failed">Bluetooth échec de la connexion</string>
+  <string name="toast_microphone_failed">Impossible d\'obtenir l\'audio du microphone</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth സ്പീക്കര്</string>
+  <string name="heading_paired_devices">പ്രദര്ശിപ്പിക്കുന്ന ഉപകരണങ്ങളുടെ പട്ടിക.\nകണക്ട് ചെയ്യുന്നതിനായി റിസീവര് ക്ലിക്ക് ചെയ്യുക.</string>
+  <string name="heading_connected_receiver">റിസീവറിലേക്ക് ബന്ധപ്പെട്ടിരിക്കുന്നു.\nട്രാന്സ്മിറ്റ് ചെയ്യാനായി ടച്ച് മൈക്രോഫോണ് ബട്ടണ്.\nവോള്യം അഡ്മിറ്റ് ചെയ്യുവാന് സ്ലൈഡര് ഉപയോഗിക്കുക.</string>
+  <string name="listview_no_devices">ഉപകരണങ്ങള് ലഭ്യമല്ല</string>
+  <string name="toast_permissions_required">Closing:\nമൈക്രോഫോൺ ഉപയോഗിക്കുവാൻ അനുവദിക്കപ്പെടുന്നു.</string>
+  <string name="toast_connection_failed">Bluetooth ബന്ധം പരാജയപ്പെട്ടു</string>
+  <string name="toast_microphone_failed">മൈക്രോഫോണില് നിന്നും ഓഡിയോ ലഭ്യമാക്കുവാന് സാധ്യമായില്ല</string>
+</resources>

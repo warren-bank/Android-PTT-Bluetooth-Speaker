@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth スピーカー</string>
+  <string name="heading_paired_devices">対になった装置の一覧.\n接続するには「受信.</string>
+  <string name="heading_connected_receiver">受信側に接続済み.\nマイクロホン・ボタンをタッチして送信.\nスライダーを使用してボリュームを調整する.</string>
+  <string name="listview_no_devices">装置が見つからない</string>
+  <string name="toast_permissions_required">クロージング:\nマイクロホン使用の許可が必要です</string>
+  <string name="toast_connection_failed">Bluetooth 接続の失敗</string>
+  <string name="toast_microphone_failed">マイクロホンから音声を取得できません</string>
+</resources>

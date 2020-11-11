@@ -1,0 +1,6 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Докладчик</string>
+  <string name="notification_service_ticker">PTT Bluetooth Динамик: служба работает</string>
+  <string name="notification_service_content_line1">PTT Bluetooth Динамик</string>
+  <string name="notification_service_content_line2">Щелкните, чтобы остановить службу.</string>
+</resources>

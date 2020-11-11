@@ -1,0 +1,6 @@
+<resources>
+  <string name="app_name">PTT Bluetooth अध्यक्ष</string>
+  <string name="notification_service_ticker">PTT Bluetooth अध्यक्ष: सेवा चलिरहेको छ</string>
+  <string name="notification_service_content_line1">PTT Bluetooth अध्यक्ष चलाउँदै</string>
+  <string name="notification_service_content_line2">सेवा रोक्न क्लिक गर्नुहोस्.</string>
+</resources>

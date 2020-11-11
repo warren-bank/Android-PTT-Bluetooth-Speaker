@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Házelnök</string>
+  <string name="heading_paired_devices">A párosított eszközök jegyzéke.\nA csatlakozáshoz kattintson a fogadó.</string>
+  <string name="heading_connected_receiver">Csatlakoztatva a fogadóhoz.\nÉrintsd meg a mikrofon gombot.\nA csúszka használata a kötet beállításához.</string>
+  <string name="listview_no_devices">Nem találhatók eszközök</string>
+  <string name="toast_permissions_required">Zárolás:\nA mikrofon használatára vonatkozó engedély szükséges</string>
+  <string name="toast_connection_failed">Bluetooth A kapcsolat meghiúsult</string>
+  <string name="toast_microphone_failed">A mikrofon nem szerezhető be a mikrofonból</string>
+</resources>

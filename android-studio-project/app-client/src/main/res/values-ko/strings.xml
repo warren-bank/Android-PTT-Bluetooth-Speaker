@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth 스피커</string>
+  <string name="heading_paired_devices">짝을 이룬 장치 목록.\n연결하려면 리시버 클릭.</string>
+  <string name="heading_connected_receiver">리시버에 연결됨.\n전송하기 위한 터치 마이크 버튼.\n슬라이더를 사용하여 볼륨 조정.</string>
+  <string name="listview_no_devices">장치가 없음</string>
+  <string name="toast_permissions_required">닫기:\n마이크를 사용할 수 있는 권한이 필요합니다.</string>
+  <string name="toast_connection_failed">Bluetooth 연결 실패</string>
+  <string name="toast_microphone_failed">마이크에서 오디오를 확보할 수 없음</string>
+</resources>

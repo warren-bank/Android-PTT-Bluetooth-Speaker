@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Speaker</string>
+  <string name="heading_paired_devices">Elenco dei dispositivi accoppiati.\nFare clic sul ricevitore per connettersi.</string>
+  <string name="heading_connected_receiver">Connesso al ricevitore.\nPulsante del microfono touch per trasmettere.\nUsa slider per regolare il volume.</string>
+  <string name="listview_no_devices">Nessun dispositivo trovato</string>
+  <string name="toast_permissions_required">Chiusura:\nÈ richiesto il permesso di utilizzare il microfono</string>
+  <string name="toast_connection_failed">Bluetooth connessione non riuscita</string>
+  <string name="toast_microphone_failed">Impossibile ottenere l\'audio dal microfono</string>
+</resources>

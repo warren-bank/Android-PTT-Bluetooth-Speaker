@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Puhuja</string>
+  <string name="heading_paired_devices">Luettelo paritetuista laitteista.\nNapsauttamalla vastaanotinta.</string>
+  <string name="heading_connected_receiver">Yhdistetty vastaanottimeen.\nKosketusmikrofonin nappi.\nKäytä liukusäädintä.</string>
+  <string name="listview_no_devices">Ei laitteita</string>
+  <string name="toast_permissions_required">Sulkemis:\nMikrofonin käyttö on pakollista.</string>
+  <string name="toast_connection_failed">Bluetooth Yhteys epäonnistui</string>
+  <string name="toast_microphone_failed">Äänen nouto mikrofonista ei onnistu</string>
+</resources>

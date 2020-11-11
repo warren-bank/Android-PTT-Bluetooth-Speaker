@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Pembesar suara</string>
+  <string name="heading_paired_devices">Senarai peranti paimerah.\nKlik penerima untuk sambung.</string>
+  <string name="heading_connected_receiver">Bersambung ke penerima.\nButang mikrofon sentuh untuk dijelmakan.\nGuna pelungsur untuk laras volum.</string>
+  <string name="listview_no_devices">Tiada peranti ditemui</string>
+  <string name="toast_permissions_required">Menutup:\nKeizinan untuk menggunakan mikrofon diperlukan</string>
+  <string name="toast_connection_failed">Bluetooth sambungan gagal</string>
+  <string name="toast_microphone_failed">Tidak boleh dapatkan audio dari mikrofon</string>
+</resources>

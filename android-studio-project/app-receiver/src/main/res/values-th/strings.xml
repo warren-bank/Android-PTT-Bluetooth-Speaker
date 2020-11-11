@@ -1,0 +1,6 @@
+<resources>
+  <string name="app_name">PTT Bluetooth ลำโพง</string>
+  <string name="notification_service_ticker">PTT Bluetooth ลำโพง: เซอร์วิสกำลังรัน</string>
+  <string name="notification_service_content_line1">PTT Bluetooth เปิดลำโพง</string>
+  <string name="notification_service_content_line2">คลิกเพื่อหยุดบริการ.</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth سماعات</string>
+  <string name="heading_paired_devices">كشف بالأجهزة المزدوجة.\nاضغط على ملف الاستلام للاتصال.</string>
+  <string name="heading_connected_receiver">تم الاتصال بملف الاستقبال.\nقم بلمس مفتاح ميكروفون للارسال.\nاستخدم الشريحة المنزلقة لضبط الصوت.</string>
+  <string name="listview_no_devices">لم يتم ايجاد أي أجهزة</string>
+  <string name="toast_permissions_required">جاري الاغلاق:\nتصريح باستخدام الميكروفون مطلوب</string>
+  <string name="toast_connection_failed">Bluetooth فشل الاتصال</string>
+  <string name="toast_microphone_failed">لا يمكن الحصول على الصوتيات من الميكروفون</string>
+</resources>

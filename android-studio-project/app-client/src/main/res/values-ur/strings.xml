@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth سپیکر</string>
+  <string name="heading_paired_devices">جوڑ بنانے والے آلات کی فہرست.\nملانے کے لئے کلک رسیور.</string>
+  <string name="heading_connected_receiver">رسیور سے متصل.\nٹرانسمیت کو ٹچ مائیکروفون بٹن.\nحجم کو ایڈجسٹ کرنے کیلئے سلائیڈر استعمال کریں.</string>
+  <string name="listview_no_devices">کوئی ڈیوائس نہیں ملا</string>
+  <string name="toast_permissions_required">ہار:\nمائیکروسوفٹ کے استعمال کی اجازت درکار ہے</string>
+  <string name="toast_connection_failed">Bluetooth اتصال ناکام</string>
+  <string name="toast_microphone_failed">مائیکروسوفٹ سے آڈیو حاصل کرنے کے قابل</string>
+</resources>

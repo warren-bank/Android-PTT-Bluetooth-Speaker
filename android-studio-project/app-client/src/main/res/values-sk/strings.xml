@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Rečník</string>
+  <string name="heading_paired_devices">Zoznam spárovaných zariadení.\nPripojiť sa na prijímateľa.</string>
+  <string name="heading_connected_receiver">Pripojený k prijímačom.\nDotknúť sa tlačidla mikrofónu na prenos.\nPoužiť posuvník na nastavenie hlasu.</string>
+  <string name="listview_no_devices">Nenašli sa žiadne zariadenia</string>
+  <string name="toast_permissions_required">Zatváranie:\nVyžaduje sa povolenie na používanie mikrofónu</string>
+  <string name="toast_connection_failed">Bluetooth spojenie zlyhalo</string>
+  <string name="toast_microphone_failed">Nie je možné získať zvuk z mikrofónu</string>
+</resources>

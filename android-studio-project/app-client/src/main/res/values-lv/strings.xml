@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Skaļrunis</string>
+  <string name="heading_paired_devices">Pāra ierīču saraksts.\nNoklikšķiniet uztvērējs, lai izveidotu.</string>
+  <string name="heading_connected_receiver">Savienots ar uztvērēju.\nPieskaras mikrofona poga, lai pārraida.\nIzmantot slīdni, lai pielāgotu skaļumu.</string>
+  <string name="listview_no_devices">Nav atrasta neviena ierīce</string>
+  <string name="toast_permissions_required">Aizvēršana:\nAtļauja izmantot mikrofonu ir nepieciešama</string>
+  <string name="toast_connection_failed">Bluetooth Neizdevās</string>
+  <string name="toast_microphone_failed">Neizdevās iegūt audio no mikrofona</string>
+</resources>

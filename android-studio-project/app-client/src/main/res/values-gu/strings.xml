@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth સ્પીકર</string>
+  <string name="heading_paired_devices">જોડેલ ઉપકરણોની યાદી.\nજોડાવા માટે રીસીવર પર ક્લિક કરો.</string>
+  <string name="heading_connected_receiver">મેળવવા માટે જોડાયેલ છે.\nરૂપાંતરણ કરવા માટે માઇક્રોફોન બટન.\nવોલ્યુમને સંતુલિત કરવા માટે સ્લાઇડરને વાપરો.</string>
+  <string name="listview_no_devices">ઉપકરણો મળ્યા નથી</string>
+  <string name="toast_permissions_required">Closing:\nમાઇક્રોફોન વાપરવા માટે પરવાનગી જરૂરી છે</string>
+  <string name="toast_connection_failed">Bluetooth જોડાણ નિષ્ફળ</string>
+  <string name="toast_microphone_failed">માઇક્રોફોન માંથી ઓડિયો મેળવવાનું અસમર્થ</string>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Loa</string>
+  <string name="notification_service_ticker">PTT Bluetooth Loa: chạy dịch vụ</string>
+  <string name="notification_service_content_line1">PTT Bluetooth Đang chạy loa</string>
+  <string name="notification_service_content_line2">Nhấp để dừng dịch vụ.</string>
+</resources>

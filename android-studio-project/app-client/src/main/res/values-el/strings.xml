@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Ομιλητής</string>
+  <string name="heading_paired_devices">Κατάλογος των ζευγών συσκευών.\nΠατήστε δέκτη για σύνδεση..</string>
+  <string name="heading_connected_receiver">Σύνδεση με δέκτη.\nΚουμπί μικρόφωνο Touch για μετάδοση.\nΧρήση slider για ρύθμιση έντασης.</string>
+  <string name="listview_no_devices">Δεν βρέθηκαν συσκευές.</string>
+  <string name="toast_permissions_required">Κλείσιμο.:\nΑπαιτείται άδεια χρήσης του μικροφώνου.</string>
+  <string name="toast_connection_failed">Bluetooth Αποτυχία σύνδεσης.</string>
+  <string name="toast_microphone_failed">Αδυναμία λήψης ήχου από το μικρόφωνο</string>
+</resources>

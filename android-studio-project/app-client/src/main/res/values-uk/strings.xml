@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Спікер</string>
+  <string name="heading_paired_devices">Список парних пристроїв.\nКлацніть, щоб з \' єднати.</string>
+  <string name="heading_connected_receiver">Приєднаний до отримувача.\nДоторкнутися до кнопок мікрофона.\nВикористовувати повзунок для налаштування гучності.</string>
+  <string name="listview_no_devices">Не знайдено жодного пристрою</string>
+  <string name="toast_permissions_required">Закриття:\nПотрібен дозвіл на використання мікрофону</string>
+  <string name="toast_connection_failed">Bluetooth з \' єднання</string>
+  <string name="toast_microphone_failed">Неможливо отримати аудіо з мікрофона</string>
+</resources>

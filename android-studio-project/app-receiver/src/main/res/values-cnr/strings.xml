@@ -1,0 +1,6 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Zvučnik</string>
+  <string name="notification_service_ticker">PTT Bluetooth Jedan zvučnik: servis pokrenut.</string>
+  <string name="notification_service_content_line1">PTT Bluetooth Jedan zvučnik radi.</string>
+  <string name="notification_service_content_line2">Jedan klik da zaustavite službu..</string>
+</resources>

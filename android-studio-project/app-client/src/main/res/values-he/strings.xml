@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth הדובר</string>
+  <string name="heading_paired_devices">רשימת התקנים לזווג.\nלחצו על מקבל כדי להתחבר.</string>
+  <string name="heading_connected_receiver">מחובר אל המקלט.\nלחצן \'נוגע מיקרופון\' כדי להעביר.\nשימוש בסרגל הצד כדי להתאים את עוצמת הקול.</string>
+  <string name="listview_no_devices">לא נמצאו התקנים</string>
+  <string name="toast_permissions_required">סגירת:\nדרושה הרשאה לשימוש במיקרופון</string>
+  <string name="toast_connection_failed">Bluetooth החיבור נכשל.</string>
+  <string name="toast_microphone_failed">לא ניתן לקבל אודיו ממיקרופון</string>
+</resources>

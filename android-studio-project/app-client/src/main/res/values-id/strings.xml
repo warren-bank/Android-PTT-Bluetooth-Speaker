@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Pengeras suara</string>
+  <string name="heading_paired_devices">Daftar perangkat yang dipasangkan.\nKlik penerima untuk menyambung.</string>
+  <string name="heading_connected_receiver">Terhubung ke penerima.\nSentuh tombol mikrofon untuk mengirimkan.\nGunakan slider untuk menyesuaikan volume.</string>
+  <string name="listview_no_devices">Tidak ada perangkat yang ditemukan</string>
+  <string name="toast_permissions_required">Penutupan:\nIzin untuk menggunakan mikrofon diperlukan</string>
+  <string name="toast_connection_failed">Bluetooth koneksi gagal</string>
+  <string name="toast_microphone_failed">Tidak dapat memperoleh audio dari mikrofon</string>
+</resources>

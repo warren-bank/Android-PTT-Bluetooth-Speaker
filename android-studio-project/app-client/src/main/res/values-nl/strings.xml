@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Luidspreker</string>
+  <string name="heading_paired_devices">Lijst van gepaarde apparaten.\nKlik op ontvanger om te verbinden.</string>
+  <string name="heading_connected_receiver">Verbonden met ontvanger.\nDe knop Microfoon aanraken om te verzenden.\nSchuifregelaar gebruiken om volume aan te passen.</string>
+  <string name="listview_no_devices">Geen apparaten gevonden</string>
+  <string name="toast_permissions_required">Sluiten:\nToestemming om de microfoon te gebruiken is vereist</string>
+  <string name="toast_connection_failed">Bluetooth verbinding mislukt</string>
+  <string name="toast_microphone_failed">Audio van microfoon kan niet worden verkregen</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Høyttaler</string>
+  <string name="heading_paired_devices">Liste over sammensatte enheter.\nKlikk på mottaker for å koble.</string>
+  <string name="heading_connected_receiver">Tilkoblet til mottaker.\nRør mikrofon-knapp for å overføre.\nBruk glidebryter for å justere volum.</string>
+  <string name="listview_no_devices">Ingen enheter funnet</string>
+  <string name="toast_permissions_required">Lukker:\nTillatelse til å bruke mikrofonen er nødvendig</string>
+  <string name="toast_connection_failed">Bluetooth Tilkoblingen mislyktes</string>
+  <string name="toast_microphone_failed">Kan ikke innhente lyd fra mikrofon</string>
+</resources>

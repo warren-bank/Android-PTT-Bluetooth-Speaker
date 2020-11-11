@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth స్పీకర్</string>
+  <string name="heading_paired_devices">బాహ్య పరికరల జాబితా.\nఅనుసంధానించుటకు రిసీవర్ నొక్కుము.</string>
+  <string name="heading_connected_receiver">రిసీవర్ కు అనుసంధించబడింది.\nటచ్ మైక్రోఫోన్ బటన్ చేయడానికి.\nస్లైడర్ ను అడ్డుచేయుటకు స్లైడర్ వుపయోగించుము.</string>
+  <string name="listview_no_devices">పరికరములు కనబడలేదు</string>
+  <string name="toast_permissions_required">ముగించుము:\nమైక్రోఫోను ఉపయోగించడానికి పర్యవేక్షణ అవసరమవుతుంది.</string>
+  <string name="toast_connection_failed">Bluetooth అనుసంధానం విఫలమైంది</string>
+  <string name="toast_microphone_failed">మైక్రోఫోన్ నుండి ఆడియో పొందలేకపొయాను</string>
+</resources>

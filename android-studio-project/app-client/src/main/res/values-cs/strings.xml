@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Reproduktor</string>
+  <string name="heading_paired_devices">Seznam párových zařízení.\nKlepnutím na přijímač se připojíte..</string>
+  <string name="heading_connected_receiver">Připojeno k příjemci.\nDotykový mikrofon pro přenos.\nPoužít posuvný ovladač pro úpravu hlasitosti.</string>
+  <string name="listview_no_devices">Nebyla nalezena žádná zařízení</string>
+  <string name="toast_permissions_required">Zavření:\nJe vyžadováno oprávnění k používání mikrofonu.</string>
+  <string name="toast_connection_failed">Bluetooth připojení se nezdařilo</string>
+  <string name="toast_microphone_failed">Nelze získat zvuk z mikrofonu</string>
+</resources>

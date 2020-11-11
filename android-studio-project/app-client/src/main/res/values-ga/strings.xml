@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Cainteoir</string>
+  <string name="heading_paired_devices">Liosta de ghléasanna paite.\nCliceáil glacadóir le ceangal.</string>
+  <string name="heading_connected_receiver">Ceangailte le glacadóir.\nTeagmháil leis an gcnaipe micreafón.\nÚsáid sleamhnán chun an méid a choigeartú.</string>
+  <string name="listview_no_devices">Níor aimsíodh aon ghléasanna</string>
+  <string name="toast_permissions_required">Dúnadh:\nCead chun úsáid a bhaint as an micreafón ag teastáil</string>
+  <string name="toast_connection_failed">Bluetooth theip ar cheangal</string>
+  <string name="toast_microphone_failed">Ní féidir fuaime a fháil ó micreafón</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth விசையாளர்</string>
+  <string name="heading_paired_devices">பட்டியல் சாதனங்களின் பட்டியல்.\nஇணைக்க பெறுநர் கிளிக் செய்யவும்.</string>
+  <string name="heading_connected_receiver">பெறுநர் இணைப்பு.\nதொற்றுபடுத்துவதற்கு சுட்டி மைக்ரோபேன் பொத்தான்.\nஒலியளவு ஒலியை பயன்படுத்து.</string>
+  <string name="listview_no_devices">சாதனங்கள் இல்லை</string>
+  <string name="toast_permissions_required">Closing:\nமைக்ரோபேன் பயன்படுத்த அனுமதிக்கிறது.</string>
+  <string name="toast_connection_failed">Bluetooth இணைப்பு தோல்வியடைந்தது</string>
+  <string name="toast_microphone_failed">மைக்ரோனில் இருந்து ஒலி பெற முடியவில்லை</string>
+</resources>

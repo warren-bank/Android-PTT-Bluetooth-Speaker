@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth සභාපති</string>
+  <string name="heading_paired_devices">සබැදි උපකරණ ලැයිස්තුව.\nසම්බන්ධ කිරීමට රිසිවරය ක්ලික් කරන්න.</string>
+  <string name="heading_connected_receiver">රිසිවර් වලට සම්බන්ධ විය.\nසම්ප්රේෂණය කිරීමට ටච් මයික්රෆෝන බොත්තම.\nශබ්දය ඇඩ් කිරීමට ස්ලයිඩරය භාවිත කරන්න.</string>
+  <string name="listview_no_devices">උපකරණ හමු නොවිනි</string>
+  <string name="toast_permissions_required">Closing:\nමයික්රෆෝනය භාවිතා කිරීමට අවසර දී ඇති</string>
+  <string name="toast_connection_failed">Bluetooth සම්බන්ධතාවය අසාර්ථකයි</string>
+  <string name="toast_microphone_failed">මයික්රෝෆෝනයෙන් ශ්රව්ය ලබා ගැනීමට නොහැකි විය</string>
+</resources>

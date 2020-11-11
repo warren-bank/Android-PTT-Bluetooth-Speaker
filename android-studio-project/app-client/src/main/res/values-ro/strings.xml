@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Vorbitor</string>
+  <string name="heading_paired_devices">Listă de dispozitive pereche.\nFaceţi clic pe receptor pentru conectare.</string>
+  <string name="heading_connected_receiver">Conectat la receptor.\nButon de microfon tactil pentru a transmite.\nUtilizaţi glisor pentru a ajusta volumul.</string>
+  <string name="listview_no_devices">Nu au fost găsite dispozitive</string>
+  <string name="toast_permissions_required">Închidere:\nPermisiunea de a folosi microfonul este necesară</string>
+  <string name="toast_connection_failed">Bluetooth conexiune eşuată</string>
+  <string name="toast_microphone_failed">Nu se poate obţine audio de la microfon</string>
+</resources>

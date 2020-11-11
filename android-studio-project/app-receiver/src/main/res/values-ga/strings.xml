@@ -1,0 +1,6 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Cainteoir</string>
+  <string name="notification_service_ticker">PTT Bluetooth Cainteoir: rith ag rith</string>
+  <string name="notification_service_content_line1">PTT Bluetooth Cainteoir ag rith</string>
+  <string name="notification_service_content_line2">Cliceáil chun seirbhís a stopadh.</string>
+</resources>

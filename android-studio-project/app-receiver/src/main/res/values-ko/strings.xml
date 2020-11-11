@@ -1,0 +1,6 @@
+<resources>
+  <string name="app_name">PTT Bluetooth 스피커</string>
+  <string name="notification_service_ticker">PTT Bluetooth 스피커: 서비스 실행</string>
+  <string name="notification_service_content_line1">PTT Bluetooth 스피커 실행</string>
+  <string name="notification_service_content_line2">서비스를 중지하려면 누르십시오..</string>
+</resources>

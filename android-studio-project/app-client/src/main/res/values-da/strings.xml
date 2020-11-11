@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Højttaler</string>
+  <string name="heading_paired_devices">Liste over parrede enheder.\nKlik på modtager for at oprette.</string>
+  <string name="heading_connected_receiver">Forbindelse oprettet til modtager.\nTryk på mikrofonen for at sende.\nBrug skyderen til at justere volumen.</string>
+  <string name="listview_no_devices">Ingen enheder fundet</string>
+  <string name="toast_permissions_required">Lukker:\nTilladelse til at bruge mikrofonen er påkrævet</string>
+  <string name="toast_connection_failed">Bluetooth Fejl under forbindelse</string>
+  <string name="toast_microphone_failed">Kan ikke hente audio fra mikrofon</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth স্পিকার</string>
+  <string name="heading_paired_devices">জোরালো ডিভাইসের তালিকা.\nসংযোগ স্থাপনের জন্য রিসিভার ক্লিক করুন.</string>
+  <string name="heading_connected_receiver">রিসিভারের সাথে সংযুক্ত.\nট্রান্সমিট করার জন্য Touch মাইক্রোফোন বাটন.\nশব্দভাণ্ডারের জন্য স্লাইডার ব্যবহার করো.</string>
+  <string name="listview_no_devices">কোনো ডিভাইস পাওয়া যায়নি</string>
+  <string name="toast_permissions_required">ক্লোজ:\nমাইক্রোফোন ব্যবহার করার অনুমতি প্রয়োজন</string>
+  <string name="toast_connection_failed">Bluetooth সংযোগ ব্যর্থ</string>
+  <string name="toast_microphone_failed">মাইক্রোফোন থেকে অডিও সংগ্রহ করতে অক্ষম</string>
+</resources>

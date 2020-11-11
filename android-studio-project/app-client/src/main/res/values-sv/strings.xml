@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Högtalare</string>
+  <string name="heading_paired_devices">Lista över parade enheter.\nKlicka på mottagare för att ansluta.</string>
+  <string name="heading_connected_receiver">Ansluten till mottagare.\nTryck på mikrofonen för att överföra.\nAnvänd skjutreglage för att justera volym.</string>
+  <string name="listview_no_devices">Inga enheter hittades</string>
+  <string name="toast_permissions_required">Stänger:\nBehörighet att använda mikrofonen krävs</string>
+  <string name="toast_connection_failed">Bluetooth anslutning misslyckades</string>
+  <string name="toast_microphone_failed">Det går inte att hämta ljud från mikrofon</string>
+</resources>

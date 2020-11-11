@@ -1,0 +1,6 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Vorbitor</string>
+  <string name="notification_service_ticker">PTT Bluetooth Vorbitor: serviciu care rulează</string>
+  <string name="notification_service_content_line1">PTT Bluetooth Vorbitor de rulare</string>
+  <string name="notification_service_content_line2">Faceţi clic pentru a opri serviciul.</string>
+</resources>

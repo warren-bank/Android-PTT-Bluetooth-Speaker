@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Głośnik</string>
+  <string name="heading_paired_devices">Lista sparowanych urządzeń.\nKliknij dziennik, aby nawiązać połączenie.</string>
+  <string name="heading_connected_receiver">Połączono z odbiornikiem.\nDotykowy przycisk mikrofonu do transmisji.\nUżyj suwaka do regulacji głośności.</string>
+  <string name="listview_no_devices">Nie znaleziono urządzeń</string>
+  <string name="toast_permissions_required">Zamykanie:\nWymagane jest uprawnienie do korzystania z mikrofonu</string>
+  <string name="toast_connection_failed">Bluetooth niepowodzenie połączenia</string>
+  <string name="toast_microphone_failed">Nie można uzyskać dźwięku z mikrofonu</string>
+</resources>

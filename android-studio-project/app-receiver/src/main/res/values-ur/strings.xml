@@ -1,0 +1,6 @@
+<resources>
+  <string name="app_name">PTT Bluetooth سپیکر</string>
+  <string name="notification_service_ticker">PTT Bluetooth سپیکر: سروس چلانے</string>
+  <string name="notification_service_content_line1">PTT Bluetooth سپیکر چل رہے</string>
+  <string name="notification_service_content_line2">سٹاپ سروس پر کلک کریں.</string>
+</resources>

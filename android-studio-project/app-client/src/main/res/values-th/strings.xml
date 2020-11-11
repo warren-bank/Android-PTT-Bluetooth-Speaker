@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth ลำโพง</string>
+  <string name="heading_paired_devices">รายการของอุปกรณ์ที่จับคู่.\nคลิก receiver เพื่อเชื่อมต่อ.</string>
+  <string name="heading_connected_receiver">เชื่อมต่อกับตัวรับ.\nแตะปุ่มไมโครโฟนเพื่อส่งข้อมูล.\nใช้ตัวเลื่อนเพื่อปรับวอลุ่ม.</string>
+  <string name="listview_no_devices">ไม่พบอุปกรณ์</string>
+  <string name="toast_permissions_required">กำลังปิด:\nสิทธิในการใช้ไมโครโฟนเป็นสิ่งจำเป็น</string>
+  <string name="toast_connection_failed">Bluetooth การเชื่อมต่อล้มเหลว</string>
+  <string name="toast_microphone_failed">ไม่สามารถรับเสียงจากไมโครโฟน</string>
+</resources>

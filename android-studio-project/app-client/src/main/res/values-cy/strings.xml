@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Seinydd</string>
+  <string name="heading_paired_devices">Rhestr o ddyfeisiau wedi eu gwyntyllu.\nCliciwch derbynnydd i gysylltu.</string>
+  <string name="heading_connected_receiver">Wedi cysylltu i dderbynnydd.\nCyffwrdd botwm meicroffon i\'w drosglwyddo.\nDefnyddiwch y llithrydd i addasu cyfaint.</string>
+  <string name="listview_no_devices">Heb ganfod dyfeisiau</string>
+  <string name="toast_permissions_required">Cau:\nMae angen caniatâd i ddefnyddio\'r meicroffon</string>
+  <string name="toast_connection_failed">Bluetooth methodd y cysylltiad</string>
+  <string name="toast_microphone_failed">Methu cael sain o meicroffon</string>
+</resources>

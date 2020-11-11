@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Loa</string>
+  <string name="heading_paired_devices">Danh sách các thiết bị ghép.\nNhấn để kết nối.</string>
+  <string name="heading_connected_receiver">Kết nối với máy thu.\nBấm nút microphone để truyền.\nDùng thanh trượt để điều chỉnh âm lượng.</string>
+  <string name="listview_no_devices">Không tìm thấy thiết bị</string>
+  <string name="toast_permissions_required">Đóng:\nYêu cầu xin phép sử dụng microphone</string>
+  <string name="toast_connection_failed">Bluetooth kết nối không</string>
+  <string name="toast_microphone_failed">Không thể thu được âm thanh từ microphone</string>
+</resources>

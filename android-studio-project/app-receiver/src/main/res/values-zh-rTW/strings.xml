@@ -1,0 +1,6 @@
+<resources>
+  <string name="app_name">PTT Bluetooth 揚聲器</string>
+  <string name="notification_service_ticker">PTT Bluetooth 喇叭：服務執行中</string>
+  <string name="notification_service_content_line1">PTT Bluetooth 喇叭執行中</string>
+  <string name="notification_service_content_line2">按一下以停止服務.</string>
+</resources>

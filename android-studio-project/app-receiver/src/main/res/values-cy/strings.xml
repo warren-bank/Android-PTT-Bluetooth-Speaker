@@ -1,0 +1,6 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Seinydd</string>
+  <string name="notification_service_ticker">PTT Bluetooth Siaradwr: gwasanaeth yn rhedeg</string>
+  <string name="notification_service_content_line1">PTT Bluetooth Siaradwr yn rhedeg</string>
+  <string name="notification_service_content_line2">Cliciwch i atal y gwasanaeth.</string>
+</resources>

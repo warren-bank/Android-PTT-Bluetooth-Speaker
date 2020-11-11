@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Kalbėjęs</string>
+  <string name="heading_paired_devices">Suporuotų prietaisų sąrašas.\nSpustelėkite imtuvas prisijungti prie.</string>
+  <string name="heading_connected_receiver">Prijungtas prie imtuvo.\nNorėdami perduoti jutiklinio mikrofono mygtuką.\nNaudoti slankiklį koreguoti tūrį.</string>
+  <string name="listview_no_devices">Nerastas joks įtaisas</string>
+  <string name="toast_permissions_required">Uždaras:\nReikalingas leidimas naudoti mikrofoną</string>
+  <string name="toast_connection_failed">Bluetooth Prisijungimas nepavyko</string>
+  <string name="toast_microphone_failed">Nepavyko gauti garso iš mikrofono</string>
+</resources>

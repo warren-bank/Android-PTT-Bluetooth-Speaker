@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Hoparlör</string>
+  <string name="heading_paired_devices">Eşleştirilmiş aygıtların listesi.\nBağlanmak için alıcı düğmesini tıklatın.</string>
+  <string name="heading_connected_receiver">Alıcıyla bağlantı kuruldu.\nİletmek için mikrofon düğmesine dokunun.\nSesi ayarlamak için kaydırıcıyı kullan.</string>
+  <string name="listview_no_devices">Aygıt bulunamadı</string>
+  <string name="toast_permissions_required">Kapatılıyor:\nMikrofonu kullanma izni gerekli</string>
+  <string name="toast_connection_failed">Bluetooth bağlantı başarısız oldu</string>
+  <string name="toast_microphone_failed">Mikrofondan ses elde edilemiyor</string>
+</resources>

@@ -1,0 +1,13 @@
+{
+  "name": "@warren-bank/Android-PTT-Bluetooth-Speaker",
+  "private": true,
+  "license": "GPL-2.0",
+  "devDependencies": {
+    "@warren-bank/translate-android-strings": "^1.7.3"
+  },
+  "scripts": {
+    "translate-client":   "node_modules/.bin/translate-android-strings -i \"en\" -f \"android-studio-project/app-client/src/main/res/values/strings.xml\"   -d \"android-studio-project/app-client/src/main/res\"   -m --na --nc --nw -b \"PTT Bluetooth\" -b \"Bluetooth\"",
+    "translate-receiver": "node_modules/.bin/translate-android-strings -i \"en\" -f \"android-studio-project/app-receiver/src/main/res/values/strings.xml\" -d \"android-studio-project/app-receiver/src/main/res\" -m --na --nc --nw -b \"PTT Bluetooth\"",
+    "translate":          "npm run translate-client && npm run translate-receiver"
+  }
+}

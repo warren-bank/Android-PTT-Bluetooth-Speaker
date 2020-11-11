@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Докладчик</string>
+  <string name="heading_paired_devices">Список парных устройств.\nЩелкните на получателе для подключения.</string>
+  <string name="heading_connected_receiver">Подключено к получателю.\nКнопка сенсорного микрофона для передачи.\nИспользовать ползунок для настройки тома.</string>
+  <string name="listview_no_devices">Устройства не найдены</string>
+  <string name="toast_permissions_required">Закрытие:\nТребуется разрешение на использование микрофона</string>
+  <string name="toast_connection_failed">Bluetooth соединение не установлено</string>
+  <string name="toast_microphone_failed">Не удалось получить звук от микрофона</string>
+</resources>

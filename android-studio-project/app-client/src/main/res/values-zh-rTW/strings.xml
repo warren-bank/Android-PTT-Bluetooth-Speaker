@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth 揚聲器</string>
+  <string name="heading_paired_devices">配對裝置列表.\n按一下接收端以連接.</string>
+  <string name="heading_connected_receiver">已連接至接收器.\n觸控麥克風按鈕傳輸.\n使用調節器來調整磁區.</string>
+  <string name="listview_no_devices">找不到裝置</string>
+  <string name="toast_permissions_required">關閉:\n需要使用麥克風的許可權</string>
+  <string name="toast_connection_failed">Bluetooth 連線失敗</string>
+  <string name="toast_microphone_failed">無法從麥克風取得音訊</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Ponente</string>
+  <string name="heading_paired_devices">Lista de dispositivos emparejados.\nPulse en receptor para conectar.</string>
+  <string name="heading_connected_receiver">Conectado al receptor.\nBotón de micrófono táctil para transmitir.\nUtilizar graduador para ajustar el volumen.</string>
+  <string name="listview_no_devices">No se han encontrado dispositivos</string>
+  <string name="toast_permissions_required">Cierre:\nEs necesario el permiso para utilizar el micrófono</string>
+  <string name="toast_connection_failed">Bluetooth error de conexión</string>
+  <string name="toast_microphone_failed">No se puede obtener audio del micrófono</string>
+</resources>

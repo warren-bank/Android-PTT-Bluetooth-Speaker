@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">PTT Bluetooth Kelliem</string>
+  <string name="heading_paired_devices">Lista ta \' apparati akkoppati.\nIkklikkja riċevitur biex jgħaqqdu.</string>
+  <string name="heading_connected_receiver">Konnessi mar-riċevitur.\nButtuna tal-mikrofonu touch biex jittrasmettu.\nUża slider biex taġġusta l-volum.</string>
+  <string name="listview_no_devices">L-ebda apparat misjub</string>
+  <string name="toast_permissions_required">Għeluq:\nPermess biex jintuża l-mikrofonu huwa meħtieġ</string>
+  <string name="toast_connection_failed">Bluetooth konnessjoni falliet</string>
+  <string name="toast_microphone_failed">Li ma jistgħux jiksbu awdjo mill-mikrofonu</string>
+</resources>
