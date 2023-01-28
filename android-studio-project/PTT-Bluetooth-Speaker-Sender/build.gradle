@@ -21,18 +21,33 @@ android {
     archivesBaseName += "-$versionName"
   }
 
+  flavorDimensions "languageResources"
+
+  productFlavors {
+    withAllLanguageTranslations {
+      dimension "languageResources"
+    }
+    english {
+      dimension "languageResources"
+    }
+  }
+
   buildTypes {
     release {
-      shrinkResources true
+      debuggable      false
+      jniDebuggable   false
       minifyEnabled   true
+      shrinkResources true
       proguardFiles = [
         "proguard-rules.txt",
         getDefaultProguardFile('proguard-android.txt')
       ]
     }
     debug {
-      debuggable  true
-      jniDebuggable true
+      debuggable      true
+      jniDebuggable   true
+      minifyEnabled   false
+      shrinkResources false
     }
   }
 

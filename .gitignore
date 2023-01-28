@@ -2,8 +2,8 @@
 node_modules/
 
 # debug output from Android string translator
-android-studio-project/PTT-Bluetooth-Speaker-Sender/src/main/res/debug.en.txt
-android-studio-project/PTT-Bluetooth-Speaker-Receiver/src/main/res/debug.en.txt
+android-studio-project/PTT-Bluetooth-Speaker-Sender/src/withAllLanguageTranslations/res/debug.en.txt
+android-studio-project/PTT-Bluetooth-Speaker-Receiver/src/withAllLanguageTranslations/res/debug.en.txt
 
 # Android generated
 bin
