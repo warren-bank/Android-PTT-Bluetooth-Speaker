@@ -14,7 +14,7 @@ android {
     minSdkVersion project.ext.minSdkVersion
     targetSdkVersion project.ext.targetSdkVersion
 
-    applicationId "com.github.warren_bank.ptt_bluetooth_speaker.client"
+    applicationId "com.github.warren_bank.ptt_bluetooth_speaker.sender"
     versionName project.ext.releaseVersion
     versionCode project.ext.releaseVersionCode
 

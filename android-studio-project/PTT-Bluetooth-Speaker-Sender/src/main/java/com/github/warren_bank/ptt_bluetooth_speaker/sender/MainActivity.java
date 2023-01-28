@@ -1,4 +1,4 @@
-package com.github.warren_bank.ptt_bluetooth_speaker.client;
+package com.github.warren_bank.ptt_bluetooth_speaker.sender;
 
 import android.Manifest;
 import android.app.Activity;
@@ -29,13 +29,13 @@ import android.widget.Toast;
 
 import java.io.OutputStream;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 
 public class MainActivity extends Activity {
-  private static final int      PERMISSIONS_REQUEST_CODE = 0;
-  private static final String   tag                      = MainActivity.class.getSimpleName();
-  private static final int      bufferSize               = AudioTrack.getMinBufferSize(16000, AudioFormat.CHANNEL_OUT_MONO, AudioFormat.ENCODING_PCM_16BIT);
+  private static final String   tag        = MainActivity.class.getSimpleName();
+  private static final int      bufferSize = AudioTrack.getMinBufferSize(16000, AudioFormat.CHANNEL_OUT_MONO, AudioFormat.ENCODING_PCM_16BIT);
 
   private TextView              textView;
   private ListView              pairedDevices;
@@ -92,7 +92,7 @@ public class MainActivity extends Activity {
     reset_views();
 
     // first: check runtime permission access to microphone
-    checkPermissions();
+    requestPermissions(false);
   }
 
   @Override
@@ -173,28 +173,36 @@ public class MainActivity extends Activity {
   // -------------------------------------------------------------------------
   // runtime permissions
 
-  private void checkPermissions() {
-    if (Build.VERSION.SDK_INT < 23) {
-      passedPermissionsCheck();
-    }
-    else {
-      String permission = Manifest.permission.RECORD_AUDIO;
-      requestPermissions(new String[]{permission}, PERMISSIONS_REQUEST_CODE);
-    }
-  }
-
   @Override
   public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
     super.onRequestPermissionsResult(requestCode, permissions, grantResults);
 
-    if (requestCode == PERMISSIONS_REQUEST_CODE) {
-      if ((grantResults.length > 0) && (grantResults[0] == PackageManager.PERMISSION_GRANTED)) {
-        passedPermissionsCheck();
+    requestPermissions(true);
+  }
+
+  private void requestPermissions(boolean verbose) {
+    List<String> permissions = new ArrayList<String>();
+
+    if (Build.VERSION.SDK_INT >= 23) {
+      if (checkSelfPermission(Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) {
+        permissions.add(Manifest.permission.RECORD_AUDIO);
       }
-      else {
+    }
+
+    if (Build.VERSION.SDK_INT >= 31) {
+      if (checkSelfPermission(Manifest.permission.BLUETOOTH_CONNECT) != PackageManager.PERMISSION_GRANTED) {
+        permissions.add(Manifest.permission.BLUETOOTH_CONNECT);
+      }
+    }
+
+    if (!permissions.isEmpty()) {
+      if (verbose)
         showToast(getString(R.string.toast_permissions_required));
-        finish();
-      }
+
+      requestPermissions(permissions.toArray(new String[permissions.size()]), 0);
+    }
+    else {
+      passedPermissionsCheck();
     }
   }
 
