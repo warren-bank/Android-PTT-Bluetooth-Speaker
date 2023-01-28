@@ -1,2 +1,2 @@
-include ':app-client'
-include ':app-receiver'
+include ':PTT-Bluetooth-Speaker-Sender'
+include ':PTT-Bluetooth-Speaker-Receiver'

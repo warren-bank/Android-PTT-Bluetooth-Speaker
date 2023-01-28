@@ -3,11 +3,15 @@
   "private": true,
   "license": "GPL-2.0",
   "devDependencies": {
-    "@warren-bank/translate-android-strings": "^1.7.3"
+    "@warren-bank/translate-android-strings": "^1.9.2"
   },
   "scripts": {
-    "translate-client":   "node_modules/.bin/translate-android-strings -i \"en\" -f \"android-studio-project/app-client/src/main/res/values/strings.xml\"   -d \"android-studio-project/app-client/src/main/res\"   -m --na --nc --nw -b \"PTT Bluetooth\" -b \"Bluetooth\"",
-    "translate-receiver": "node_modules/.bin/translate-android-strings -i \"en\" -f \"android-studio-project/app-receiver/src/main/res/values/strings.xml\" -d \"android-studio-project/app-receiver/src/main/res\" -m --na --nc --nw -b \"PTT Bluetooth\"",
-    "translate":          "npm run translate-client && npm run translate-receiver"
+    "translate:sender":         "translate-android-strings -i \"en\" -f \"android-studio-project/PTT-Bluetooth-Speaker-Sender/src/main/res/values/strings.xml\"   -d \"android-studio-project/PTT-Bluetooth-Speaker-Sender/src/main/res\"   -m --na --nc --nw -b \"(?:PTT Bluetooth|Bluetooth)\"",
+    "translate:receiver":       "translate-android-strings -i \"en\" -f \"android-studio-project/PTT-Bluetooth-Speaker-Receiver/src/main/res/values/strings.xml\" -d \"android-studio-project/PTT-Bluetooth-Speaker-Receiver/src/main/res\" -m --na --nc --nw -b \"(?:PTT Bluetooth)\"",
+
+    "translate:sender:debug":   "npm run translate:sender   -- -o \"en\" --debug",
+    "translate:receiver:debug": "npm run translate:receiver -- -o \"en\" --debug",
+
+    "translate":                "npm run translate:sender && npm run translate:receiver"
   }
 }
