@@ -17,6 +17,8 @@ android {
     applicationId "com.github.warren_bank.ptt_bluetooth_speaker.receiver"
     versionName project.ext.releaseVersion
     versionCode project.ext.releaseVersionCode
+
+    archivesBaseName += "-$versionName"
   }
 
   buildTypes {
